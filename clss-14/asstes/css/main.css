@@ -1,0 +1,969 @@
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-item .nav-link{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    margin: auto;
+}
+.nav-item .nav-link:hover{
+    color: red;
+}
+body{
+    scroll-behavior: smooth;
+}
+/* hero section */
+#hero {
+    position: relative;
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+  }
+  
+  #hero .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(143, 222, 228);
+    opacity: 0.4;
+  }
+
+  #hero .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(24, 22, 22);
+    text-align: start;
+  }
+
+  #hero .content h1{
+    font-weight: 700;
+    color: #f51010;
+    font-size: 3rem;
+  }
+  #hero .content span{
+    color: #0046e2;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+/* about section */
+#about .about-img {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+#about span {
+    font-size: 22px;
+    color: red;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+#about h1 {
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+}
+
+#about p {
+    color: dimgrey;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#about ul {
+    list-style: none;
+    font-size: 16px;
+    color: dimgrey;
+    font-weight: 500;
+    padding-left: 2px;
+}
+
+#about button {
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+    background-color: red;
+    font-weight: 500;
+    color: white;
+}
+
+#about button:hover {
+    color: #000;
+    background-color: #eee;
+    cursor: pointer;
+
+}
+
+/* key */
+#key {
+    content: "";
+    background-image: url(https://statusneo.com/wp-content/uploads/2023/02/MicrosoftTeams-image551ad57e01403f080a9df51975ac40b6efba82553c323a742b42b1c71c1e45f1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    top: 0;
+    position: relative;
+    max-width: 100%;
+    padding: 150px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.car-key i {
+    color: #faf5f5;
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 110px;
+    border: 5px solid red;
+    background: rgb(23, 24, 23);
+    z-index: 1;
+}
+
+.car-key h1 {
+    color: #eee;
+    font-size: 3rem;
+    padding-top: 5px;
+}
+
+.car-key p {
+    color: #eee;
+    font-size: 20px;
+    padding-top: 2px;
+    font-weight: 600;
+}
+
+/* car */
+#car h1 {
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+}
+
+#car h4 {
+    font-size: 22px;
+    color: red;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+#car .car-img {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#car .car-img img {
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+#car .car-img:hover img {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.car-icon h5 {
+    color: black;
+    font-size: 20px;
+}
+
+.car-icon:hover h5 {
+    color: red;
+    cursor: pointer;
+    transition: transform 0.9;
+}
+
+.car-icon .cars-rate:hover i {
+    color: gold;
+}
+
+.car-icon span {
+    color: rgb(85, 83, 79);
+    font-weight: 500;
+}
+
+.car-footer button {
+    font-size: 16px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    background: red;
+    padding: 5px 13px;
+    border-radius: 10px;
+    font-size: none;
+    color: white;
+}
+
+.car-footer button a {
+    text-decoration: auto;
+    color: white;
+}
+.car-footer button i{
+    color: white;
+}
+
+/* smal car */
+
+#small-car span {
+    font-size: 22px;
+    color: red;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+#small-car .small-img:hover img{
+    padding: 10px;
+    border-radius: 10px;
+    transition-timing-function: ease;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+#small-car .small-img:hover h5{
+    color: red;
+}
+
+#small-car h1 {
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+}
+
+#small-car .small-img h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* team-area */
+.team-area .site-heading span{
+    font-size: 22px;
+    color: red;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+.team-area .site-heading h1{
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+}
+.team-area .team-img img{
+    border-radius: 15px;
+    margin: auto;
+
+}
+.team-area .team-img{
+    overflow: hidden;
+    border-radius: 15px;
+}
+.team-area .team-img img{
+    transition: transform 0.4s;
+
+}
+.team-area .team-img:hover img{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.team-area .team-bio span{
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.team-area .team-bio a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    list-style: none;
+    font-weight: 700;
+}
+.team-area .team-bio:hover a{
+    color: red;
+}
+/* services area */
+ .service-area .site-heading span{
+    font-size: 22px;
+    color: red;
+    font-weight: 500;
+    text-decoration: inherit;
+ }
+ .service-area .site-heading h1{
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+ }
+ .service-area .service-img{
+    overflow: hidden;
+    border-radius: 15px;
+ }
+ .service-area .service-img img{
+    transition: transform 0.4s;
+    cursor: pointer;
+ }
+ .service-area .service-img:hover img{
+    transform: scale(1.2);
+ }
+ .service-area .service-title a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    margin: auto;
+ }
+ .service-area .service-title:hover a{
+    color: red;
+    transform: scale(0.4s);
+ }
+ .service-area .service-text{
+    color: #706b6b;
+    font-size: 17px;
+    font-weight: 500;
+ }
+ #service-area .service-arrow a{
+    font-size: 16px;
+    margin: 10px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    background: red;
+    padding: 5px 13px;
+    border-radius: 10px;
+    font-size: none;
+    color: white;
+    text-decoration: none;
+ }
+ #service-area .service-arrow:hover a{
+    background-color: black;
+    color: white;
+ }
+/* car brand */
+#brand .brand-text span {
+    font-size: 22px;
+    color: red;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+#brand h1 {
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+}
+
+.brand-logo .brand-listing {
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    margin-right: 30px;
+    background: red;
+    color: #eee;
+    padding: 5px 13px;
+    border-radius: 10px;
+    font-size: none;
+}
+#brand .brand-logo:hover {
+    margin: 10px;
+    border-radius: 10px;
+    transition-timing-function: ease;
+    -webkit-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.brand-logo h5 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.brand-logo span {
+    color: #4d4a4a;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Shop section */
+#boss{
+    position: relative;
+    background-image: url(https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+#boss .overlay-item{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(21, 22, 22);
+    opacity: 0.4;
+}
+#boss .content-hero{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: start;
+}
+#boss .boss-info{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+#boss .fs-info{
+    color: rgb(237, 238, 240);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+#boss .fs-info:hover{
+    color: red;
+}
+#shop .shop-site h3{
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#shop .shop-site a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+.shop-site i{
+    color: red;
+}
+.shop-site span{
+    font-size: 22px;
+    margin: 5px;
+    color: red;
+    font-weight: 700;
+}
+.shop-site .price{
+    color: black;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.shop-site p{
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    font-style: italic;
+}
+.shop-reading span{
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+    font-weight: 400;
+}
+#link-info{
+        /* color: white; */
+        border: 2px solid red;
+        border-radius: 50%;
+        padding: 5px 8px;
+        /* background: rebeccapurple; */
+        margin: 1.5px;
+}
+#link-info:hover{
+    background-color: red;
+    color: white;
+    transform-style: preserve-3d;
+}
+.des-text h1{
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+}
+.site-item p{
+    color: gray;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+/* item-area */
+.item-area .item-text h1{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px;
+}
+.item-area .item-img i{
+    color: gold;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.item-area .item-img span{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.item-img:hover span{
+    color: red;
+}
+.item-area .item-img h3{
+    color: red;
+    font-size: 1rem;
+    margin: 10px;
+    font-weight: 700;
+}
+.item-area .item-img .price{
+        /* text-decoration: none; */
+        color: black;
+        text-decoration: line-through;
+}
+
+/* contact-area */
+#contact-area .container-img i{
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: white;
+    background-color: red;
+    margin: auto;
+}
+.container-img span{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+.container-img p{
+    margin: 2px;
+    color: rgb(8, 8, 8);
+    font-weight: 400;
+}
+#contact-info .contact-img img{
+    width: 90%;
+    border-radius: 50% 15% 50% 15%;
+    background-color: white;
+}
+/* contact-area */
+#contact-info .contact-form h2{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 5px;
+}
+.contact-form p{
+    color: gray;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.contact-form button{
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background: red;
+    font-weight: 500;
+    /* text-align: end; */
+}
+.contact-form:hover button{
+    background-color: black;
+}
+/* services */
+#service {
+    background-color: #111010;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#service .services-menu span {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.services-menu img{
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+#service h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#service .services-menu p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.row .choose {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#service .choose-count {
+    display: block;
+    justify-content: end;
+    padding-left: 80%;
+    font-size: 3rem;
+    color: rgb(224, 183, 183);
+    font-weight: 500;
+    padding-bottom: 0;
+}
+
+#service .choose-count:hover {
+    color: red;
+}
+
+#service .choose-item-icon {
+    display: inline;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 2rem;
+    background: red;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#service .choose-item-info p {
+    color: #797171;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* logo */
+.logo .logo-text span {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo .logo-text h1 {
+    font-size: 3rem;
+    color: green;
+    font-weight: 700;
+}
+
+#logo .logo-item {
+    color: rgb(39, 36, 36);
+    font-size: 16px;
+    font-weight: 700;
+}
+.logo-item:hover p{
+    color: red;
+}
+#logo .logo-item:hover{
+    margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition-timing-function: ease;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+/* car selection */
+#car .cars-list {
+    display: flex;
+    justify-content: space-around;
+    font-style: none;
+}
+
+#car .car-footer {
+    display: flex;
+    justify-content: space-between;
+}
+/* client */
+.client .client-text span{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.client .client-text h1{
+    color: green;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* swiper js */
+#client {
+    position: relative;
+    height: 100%;
+}
+
+#client {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #d6d3d3;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    border-radius: 20px;
+}
+.swiper-slide .img-info h5{
+    color: black;
+    font-size: large;
+    margin: auto;
+    text-align: start;
+}
+.swiper-slide .img-info a{
+    color: red;
+    font-size: 18px;
+    text-align: start;
+}
+.swiper-slide .img-info p{
+    font-size: 16px;
+    padding-left: 2px;
+    text-align: start;
+    font-weight: 500;
+    color: #4d4545;
+}
+.swiper-slide .img-icon i{
+    color: rgb(15, 15, 15);
+    text-align: start;
+}
+.swiper-slide img {
+    display: block;
+    width: 40%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* blog */
+#blog .blog-text span{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+#blog .blog-text h1{
+    color: green;
+    font-size: 3rem;
+    font-weight: 700;
+}
+#blog .blog-img{
+    overflow: hidden;
+    border-radius: 10px;
+}
+#blog .blog-img img{
+    transition: transform 0.4s;
+}
+#blog .blog-img:hover img{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+#blog .blog-info span{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+#blog .blog-info:hover span{
+    color: red;
+}
+.blog-info p{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#blog button{
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+    background-color: red;
+    font-weight: 500;
+    color: white;
+}
+/* motex */
+#motex span{
+   color: red;
+   font-size: 20px;
+   font-weight: 500;
+}
+#motex h1{
+    color: green;
+    font-size: 3rem;
+    font-weight: 700;
+}
+#motex p{
+    color: #1f1c1c;
+    font-size: 16px;
+    font-weight: 500;
+}
+#motex button{
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+    background-color: red;
+    font-weight: 500;
+    color: white;
+}
+#motex:hover .motex-btn{
+    color: #fcf3f3;
+    background-color: #000;
+}
+#motex img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+}
+/* footer-area */
+.footer-area{
+    background-color: #18f072;
+    padding-top: 20px;
+}
+.footer-area img{
+    color: white;
+}
+.footer-area p{
+   color: rgb(61, 59, 59);
+   font-size: 16px;
+   font-weight: 500;
+   margin-top: 20px;
+}
+.footer-area ul{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    list-style: none;
+}
+.footer-area .footer-list:hover li i{
+    padding: 5px;
+    transition-timing-function: ease;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    list-style: none;
+}
+.footer-area button{
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+    background-color: red;
+    font-weight: 500;
+    color: white; 
+}
+/* footer-info */
+.footer-info{
+    background-color: rgb(19, 48, 212);
+    color: white;
+     padding: 20px;
+     justify-content: center;
+     text-align: center;
+     font-size: 1.5rem;
+     font-weight: 500;
+     padding-top: 22px;
+}
+.footer-info a{
+    color: #dd1313;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+}
